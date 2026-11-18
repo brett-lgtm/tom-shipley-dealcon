@@ -32,13 +32,13 @@ h1{font:700 clamp(34px,5.2vw,58px)/1.05 var(--display);margin:0 0 14px;letter-sp
 .poster .ptop{position:absolute;left:28px;right:28px;top:24px;display:flex;justify-content:space-between;align-items:center}
 .poster .plogo{height:26px;width:auto;transform:none}
 .poster .chip{font:600 12px var(--body);letter-spacing:.08em;text-transform:uppercase;color:var(--navy);background:var(--gold);padding:6px 10px;border-radius:999px}
-.poster .play{position:absolute;left:64%;top:52%;transform:translate(-50%,-50%);width:92px;height:92px;border-radius:50%;background:rgba(201,168,76,.95);color:var(--navy);display:grid;place-items:center;box-shadow:0 0 0 10px rgba(201,168,76,.22),0 14px 36px rgba(0,0,0,.45);transition:transform .2s}
+.poster .play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:92px;height:92px;border-radius:50%;background:rgba(201,168,76,.95);color:var(--navy);display:grid;place-items:center;box-shadow:0 0 0 10px rgba(201,168,76,.22),0 14px 36px rgba(0,0,0,.45);transition:transform .2s}
 .poster:hover .play,.poster:focus-visible .play{transform:translate(-50%,-50%) scale(1.07)}
 .poster .label{position:absolute;left:28px;bottom:28px;color:#fff;display:grid;gap:8px;max-width:46%}
 .poster .label small{font:600 13px var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
 .poster .label b{font:700 clamp(24px,4.2vw,48px)/1.02 var(--display);letter-spacing:-.02em}
 .poster .label em{font-style:normal;font-size:15px;color:#d7deee}
-@media (max-width:600px){.poster .ptop,.poster .label small,.poster .label em{display:none}.poster .label{max-width:58%;left:14px;bottom:14px}.poster .label b{font-size:20px}.poster .play{width:52px;height:52px;left:76%;top:50%;box-shadow:0 0 0 6px rgba(201,168,76,.22),0 8px 20px rgba(0,0,0,.45)}.poster .play svg{width:22px;height:22px}}
+@media (max-width:600px){.poster .ptop,.poster .label small,.poster .label em{display:none}.poster .label{max-width:58%;left:14px;bottom:14px}.poster .label b{font-size:20px}.poster .play{width:52px;height:52px;left:50%;top:50%;box-shadow:0 0 0 6px rgba(201,168,76,.22),0 8px 20px rgba(0,0,0,.45)}.poster .play svg{width:22px;height:22px}}
 .stage .grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:18px}
 .card{display:block;text-decoration:none;background:#fff;border:1px solid var(--line);border-radius:10px;overflow:hidden}
 .card:hover{border-color:var(--gold)}
